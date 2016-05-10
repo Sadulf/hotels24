@@ -1,7 +1,7 @@
 <?php
 namespace autopencil;
 
-include __DIR__.'/autopen.php';
+require_once __DIR__.'/autopen.php';
 use autopen\AutoPen;
 
 /**

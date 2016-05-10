@@ -1,7 +1,7 @@
 <?php
 namespace autopen;
 
-include __DIR__.'/pen.php';
+require_once __DIR__.'/pen.php';
 use pen\Pen;
 
 /**
