@@ -9,7 +9,7 @@ class pen
 	const FULL_INK_VALUE  = 10000;	// запас чернила в новом стержне (символов)
 
 	protected $_ink_residue = self::FULL_INK_VALUE; // остаток чернила
-	private $_ink_color   = '#0000CC';	// цвет чернила
+	protected $_ink_color   = '#0000CC';	// цвет чернила
 	private $_output      = null;	// указатель на файл
 
 	/**

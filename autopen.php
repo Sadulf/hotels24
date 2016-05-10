@@ -9,7 +9,7 @@ use pen\Pen;
  */
 class AutoPen extends Pen
 {
-	private $_opened = false;
+	protected $_opened = false;
 
 	/**
 	 * Открывает (включает) авторучку, после чего ею можно писать. Если чернила закончились - ручка не включается.
